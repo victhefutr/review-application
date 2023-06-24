@@ -1,0 +1,9 @@
+1. Just place the "app-files" in the root folder of your web application.
+
+2. Create a database and import the "db.sql" file.
+
+3. Open the "db-config.php" file located in the "reqfiles-secure" folder. Adjust the database variables according to your host.
+
+4. For the APIs. The new endpoints will be: "https://www.yoursite.com/api/" as the prefix
+
+4. You're good to go!

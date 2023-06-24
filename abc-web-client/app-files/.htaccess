@@ -1,0 +1,11 @@
+<IfModule mod_suphp.c> 
+suPHP_ConfigPath 
+</IfModule>
+
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+Options All -Indexes

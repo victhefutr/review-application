@@ -1,0 +1,250 @@
+/*FONTS*/
+@font-face {
+    font-family: "Open Sans";
+   src:url(../fonts/OpenSans-Light.woff);
+    font-weight: 300;
+	font-display:swap;
+}
+@font-face {
+    font-family: "Open Sans";
+   src:url(../fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+	font-display:swap;
+}
+@font-face {
+    font-family: "Open Sans";
+   src:url(../fonts/OpenSans-SemiMedium.woff);
+    font-weight: 500;
+	font-display:swap;
+}
+@font-face {
+    font-family: "Open Sans";
+   src:url(../fonts/OpenSans-ExtraBold.woff);
+    font-weight: 600;
+	font-display:swap;
+}
+
+
+body {
+margin: 0;
+padding:0px 5% 0px 5%;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5;
+color: #0F3235;
+text-align: left;
+background-color: #fff;
+}
+
+
+
+
+
+
+.header{
+margin:20px auto;
+max-width:500px;
+text-align: center;
+}
+
+
+.header img{
+width:128px;
+height:128px;
+margin-bottom: 20px;
+}
+
+
+.header h1{
+font-size:20px;
+font-weight:600;
+}
+
+.header h2{
+font-size:15px;
+font-weight:300;
+}
+
+
+
+
+
+
+
+.review{
+margin:40px auto;
+max-width:500px;
+text-align: left;
+}
+
+.review .review-item{
+border-bottom:1px solid #117DBD;
+margin-top: 20px;
+}
+
+
+.review .review-item .message{
+margin-top:20px;
+background-color:#D2D3E9;
+padding: 10px;
+border-radius:5px;
+}
+
+
+.review .review-item h1{
+font-size:16px;
+font-weight:500;
+}
+
+.review .review-item h2{
+font-size:18px;
+font-weight:500;
+}
+
+.review .review-item h3{
+font-size:14px;
+font-weight:300;
+margin-top:10px;
+}
+
+.review .review-item .after-info{
+margin-top: 20px;
+margin-bottom: 5px;
+font-size:14px;
+}
+
+.review .review-item .after-info span{
+padding-right:10px;
+}
+
+.review .review-item .after-links{
+margin-bottom: 5px;
+font-size:14px;
+}
+
+.review .review-item .after-links span{
+padding-right:10px;
+}
+
+.review .review-item .after-links span.likes a{
+color:#0F3235;
+}
+
+.review .review-item button{
+margin:10px 0px 10px 0px;
+background-color:#0F3235;
+color:#fff;
+padding:4px 16px 4px 16px;
+border-radius:2px;
+outline:none;
+border:1px solid #0F3235;
+}
+
+.review .review-item button:hover{
+opacity:0.8;
+}
+
+.review .review-item-empty{
+border-bottom:1px solid #117DBD;
+margin-top: 20px;
+text-align: center;
+padding-bottom:30px;
+}
+
+.review .review-item-empty i{
+font-size:80px;
+color:#117DBD;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form-content{
+margin:40px auto;
+max-width:400px;
+text-align: left;
+}
+
+.form-content .form-header{
+font-size:18px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.form-content .form-general-error{
+margin-top:5px;
+color:#CD1417;
+font-size:16px;
+}
+
+.form-content .form-general-success{
+margin-top:5px;
+color:#2EA417;
+font-size:16px;
+}
+
+.form-content .form-group{
+margin:20px 0px 20px 0px;
+}
+
+.form-content .form-label{
+font-size:16px;
+font-weight:400;
+}
+
+.form-content .form-error{
+margin-top:5px;
+color:#CD1417;
+font-size:14px;
+}
+
+.form-content .button-true{
+background-color:#0F3235;
+color:#fff;
+padding:4px 16px 4px 16px;
+border-radius:2px;
+outline:none;
+border:1px solid #0F3235;
+}
+
+.form-content .button-true:hover{
+background-color:#fff;
+color:#0F3235;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+margin:40px auto;
+max-width:500px;
+text-align: center;
+}
+
+
+.footer h1{
+font-size:15px;
+font-weight:600;
+}
+
+.footer h2{
+font-size:15px;
+font-weight:300;
+}
+
+
+
