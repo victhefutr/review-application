@@ -88,7 +88,7 @@ Contribution
 Contributions to the ABC Flight Review Website are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request. We appreciate your contributions in making this project better.
 
 License
-This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
+This project is licensed under the Apache License. Feel free to use and modify the code according to your needs.
 
 Contact
 If you have any questions or inquiries regarding this project, please contact us at victornweze97@gmail.com
